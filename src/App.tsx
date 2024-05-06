@@ -8,8 +8,8 @@ import {
 } from "@syncfusion/ej2-react-documenteditor";
 function App() {
   return (
-    <div className="App">
-      <DocumentEditorContainerComponent height="590" enableToolbar={true}>
+    <div style={{ height: "100vh" }} className="App">
+      <DocumentEditorContainerComponent height="100%" enableToolbar={true}>
         <Inject services={[Toolbar]}></Inject>
       </DocumentEditorContainerComponent>
     </div>
